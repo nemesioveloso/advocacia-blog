@@ -10,9 +10,7 @@ export const SocialMedia = () => {
   return (
     <Box>
       <IconButton
-        onClick={() =>
-          openInNewTab('https://www.instagram.com/advrafaelfonseca')
-        }
+        onClick={() => openInNewTab('https://www.instagram.com')}
         color="error"
         aria-label="Instagram"
         size="large"
@@ -20,7 +18,7 @@ export const SocialMedia = () => {
         <InstagramIcon />
       </IconButton>
       <IconButton
-        onClick={() => openInNewTab('https://wa.me/86999546225')}
+        onClick={() => openInNewTab('https://wa.me/99999999999')}
         color="success"
         aria-label="WhatsApp"
         size="large"
@@ -28,11 +26,7 @@ export const SocialMedia = () => {
         <WhatsAppIcon />
       </IconButton>
       <IconButton
-        onClick={() =>
-          openInNewTab(
-            'https://www.facebook.com/share/azdNfkoSEhRT2n4P/?mibextid=qi2Omg',
-          )
-        }
+        onClick={() => openInNewTab('https://www.facebook.com')}
         color="primary"
         aria-label="Facebook"
         size="large"
